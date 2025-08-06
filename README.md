@@ -63,19 +63,19 @@ The analysis utilizes a comprehensive dataset containing 167 countries with 9 ke
 - `total_fer`: Total fertility rate (children per woman)
 
 #### Key Assumptions
-1. **Indicator Relevance**: The 9 selected indicators adequately represent overall country development
-2. **Data Quality**: All country data is accurate and represents current conditions
-3. **Equal Weighting**: All indicators contribute equally to development assessment
-4. **Binary Classification**: Countries can be meaningfully divided into two distinct groups
-5. **Static Conditions**: Country conditions remain stable during the analysis period
+1. The 9 selected indicators adequately represent overall country development
+2. All country data is accurate and represents current conditions
+3. All indicators contribute equally to development assessment
+4. Countries can be meaningfully divided into two distinct groups
+5. Country conditions remain stable during the analysis period
 
 #### Feature Selection Rationale
 Selected features represent the most critical aspects of human development:
-- **Child mortality** and **life expectancy**: Direct measures of population health
-- **GDP per capita** and **income**: Economic capacity and living standards  
-- **Healthcare expenditure**: Government investment in population wellbeing
-- **Fertility rate**: Demographic pressure and family planning effectiveness
-- **Inflation** and **trade**: Economic stability indicators
+- Child mortality and life expectancy: Direct measures of population health
+- GDP per capita and income: Economic capacity and living standards  
+- Healthcare expenditure: Government investment in population wellbeing
+- Fertility rate: Demographic pressure and family planning effectiveness
+- Inflation and trade: Economic stability indicators
 
 ---
 
