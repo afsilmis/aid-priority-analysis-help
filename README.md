@@ -175,7 +175,9 @@ The dataset comprises 167 countries with complete data across all 9 indicators, 
 
 Principal Component Analysis (PCA) was used to reduce the original 9-dimensional dataset to 4 principal components. These 4 components retained 90% of the total variance, effectively capturing the essential patterns in the data while minimizing information loss. The dimensionality reduction simplified the feature space without compromising interpretability.
 
-### Model Development and Validation
+---
+
+## Model Development and Validation
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/455d6ca8-1731-4b9d-a67c-d9ed55e7e6e7" alt="Elbow plot of within-cluster sum of squares (WCSS) against number of clusters (k), showing a sharp drop at k = 2, indicating optimal clustering." width="800">
@@ -196,7 +198,7 @@ Model performance showed strong, clean separation between the two clusters with 
 
 ---
 
-## 5. Results and Conclusions
+## Results and Conclusions
 
 ### Final Model Selection
 - **Algorithm**: K-Means Clustering with PCA preprocessing  
@@ -204,7 +206,7 @@ Model performance showed strong, clean separation between the two clusters with 
 - **Feature Set**: All 9 original indicators after standardization
 - **Dimensionality**: Reduced to 4 PCA components (90% variance explained)
 
-### Cluster Characteristics
+#### Cluster Characteristics
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dda889e9-236f-42d2-9cbd-abda6fd1400b" alt="Two radar charts comparing development indicators for two clusters. Cluster 0 shows high child mortality, low GDP per capita, and low life expectancy. Cluster 1 shows low child mortality, high income, and better overall health metrics." width="800">
@@ -226,7 +228,7 @@ Model performance showed strong, clean separation between the two clusters with 
 
 ---
 
-## 6. Recommendations
+## Recommendations
 
 #### Priority Countries for Aid Allocation
 
@@ -257,7 +259,7 @@ Model performance showed strong, clean separation between the two clusters with 
    - Education and nutrition crisis
    - Long-term capacity building focus
 
-### Future Model Enhancements
+#### Future Model Enhancements
 1. **Real-time Data Integration**: Incorporate live updates for dynamic prioritization
 2. **Conflict and Disaster Indicators**: Add political stability and natural disaster risk factors
 3. **Multi-level Clustering**: Develop sub-categories within aid-priority countries
