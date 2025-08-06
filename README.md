@@ -97,9 +97,11 @@ The dataset comprises 167 countries with complete data across all 9 indicators, 
 | Imports | 46.89 | 43.30 | 24.21 | 0.0659 | 174.0 | Right-skewed |
 | Inflation | 7.78 | 5.39 | 10.57 | -4.21 | 104.0 | Highly right-skewed |
 
-<img width="12000" height="7200" alt="KDE plots of 9 development indicators (Child Mortality, Life Expectancy, GDP per Capita, Income, Health Expenditure, Total Fertility, Exports, Imports, Inflation) across 167 countries. Each plot includes vertical lines marking the mean (red), mode (green), and median (blue), illustrating varying degrees of skewness, with many indicators showing right-skewed distributions." src="https://github.com/user-attachments/assets/142f3784-08ed-4925-a053-faf728b4a28e" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/142f3784-08ed-4925-a053-faf728b4a28e" alt="KDE plots of 9 development indicators (Child Mortality, Life Expectancy, GDP per Capita, Income, Health Expenditure, Total Fertility, Exports, Imports, Inflation) across 167 countries. Each plot includes vertical lines marking the mean (red), mode (green), and median (blue), illustrating varying degrees of skewness, with many indicators showing right-skewed distributions." width="800">
+</p>
 
-_Figure: Distribution and Central Tendencies of 9 Key Development Indicators Across 167 Countries_
+<p align="center"><em>Figure: Distribution and Central Tendencies of 9 Key Development Indicators Across 167 Countries</em></p>
 
 #### Extreme Value Analysis
 
