@@ -103,9 +103,12 @@ _Figure: Distribution and Central Tendencies of 9 Key Development Indicators Acr
 
 #### Extreme Value Analysis
 
-<img width="12000" height="9600" alt="Dot plots showing countries with extreme values in development indicators (2009), including fertility, mortality, life expectancy, income, GDP, trade, and spending. Highlights crisis countries (e.g., Haiti, Chad) and high-performing outliers (e.g., Singapore, Luxembourg)." src="https://github.com/user-attachments/assets/a2b8e78a-5470-440f-9e9f-274f5f0e943b" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2b8e78a-5470-440f-9e9f-274f5f0e943b" alt="Dot plots showing countries with extreme values in development indicators (2009), including fertility, mortality, life expectancy, income, GDP, trade, and spending. Highlights crisis countries (e.g., Haiti, Chad) and high-performing outliers (e.g., Singapore, Luxembourg)." width="800">
+</p>
 
-_Figure: Extreme Value Analysis of Global Development Indicators_
+<p align="center"><em>Figure: Extreme Value Analysis of Global Development Indicators</em></p>
+
 
 **Crisis Countries (Multiple Extreme Indicators):**
 
@@ -122,9 +125,11 @@ _Figure: Extreme Value Analysis of Global Development Indicators_
 
 #### Correlation Analysis
 
-<img width="700" alt="A heatmap visualizing the pairwise correlation matrix of development indicators. Each cell contains a correlation coefficient ranging from –1.00 (strong negative) to 1.00 (strong positive), with colors transitioning from blue (negative) to red (positive). Strong correlations are visible between income and GDP per capita, and between child mortality and fertility. Negative associations include child mortality with life expectancy and fertility with life expectancy." src="https://github.com/user-attachments/assets/edfe0cea-2885-4616-9a68-78ab5a5646ed" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/edfe0cea-2885-4616-9a68-78ab5a5646ed" alt="A heatmap visualizing the pairwise correlation matrix of development indicators. Each cell contains a correlation coefficient ranging from –1.00 (strong negative) to 1.00 (strong positive), with colors transitioning from blue (negative) to red (positive). Strong correlations are visible between income and GDP per capita, and between child mortality and fertility. Negative associations include child mortality with life expectancy and fertility with life expectancy." width="700">
+</p>
 
-_Figure: Correlation heatmap of development indicators_
+<p align="center"><em>Figure: Correlation heatmap of development indicators</em></p>
 
 **Strong Positive Correlations (>0.8):**
 
@@ -160,23 +165,30 @@ _Figure: Correlation heatmap of development indicators_
 
 #### Dimensionality Reduction
 
-<img width="8000" height="4000" alt="Scree plot showing cumulative explained variance across 9 principal components. A red dashed line marks the 90% variance threshold, reached at the fourth component." src="https://github.com/user-attachments/assets/63f1e61e-11a9-479b-8a0a-411eac8fa116" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/63f1e61e-11a9-479b-8a0a-411eac8fa116" alt="Scree plot showing cumulative explained variance across 9 principal components. A red dashed line marks the 90% variance threshold, reached at the fourth component." width="800">
+</p>
 
-_Figure: Scree plot of cumulative explained variance from PCA. The first four components capture 90% of the total variance, as indicated by the red dashed line._
+<p align="center"><em>Figure: Scree plot of cumulative explained variance from PCA. The first four components capture 90% of the total variance, as indicated by the red dashed line.</em></p>
 
 Principal Component Analysis (PCA) was used to reduce the original 9-dimensional dataset to 4 principal components. These 4 components retained 90% of the total variance, effectively capturing the essential patterns in the data while minimizing information loss. The dimensionality reduction simplified the feature space without compromising interpretability.
 
 ### Model Development and Validation
 
-<img width="7200" height="3200" alt="Elbow plot of within-cluster sum of squares (WCSS) against number of clusters (k), showing a sharp drop at k = 2, indicating optimal clustering." src="https://github.com/user-attachments/assets/455d6ca8-1731-4b9d-a67c-d9ed55e7e6e7" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/455d6ca8-1731-4b9d-a67c-d9ed55e7e6e7" alt="Elbow plot of within-cluster sum of squares (WCSS) against number of clusters (k), showing a sharp drop at k = 2, indicating optimal clustering." width="800">
+</p>
 
-_Figure: Elbow plot showing the within-cluster sum of squares (WCSS) for different values of k. The sharp decrease at k = 2 suggests this as the optimal number of clusters._
+<p align="center"><em>Figure: Elbow plot showing the within-cluster sum of squares (WCSS) for different values of k. The sharp decrease at k = 2 suggests this as the optimal number of clusters.</em></p>
 
 The elbow method was used to determine the optimal number of clusters, with k=2 emerging as the clear choice. The within-cluster sum of squares (WCSS) dropped sharply from k=1 to k=2, after which the gains diminished—indicating that two clusters best capture the structure in the data.
 
-<img width="7200" height="4000" alt="Scatter plot showing two distinct clusters with colored data points and red X markers as centroids. Minimal overlap observed between clusters." src="https://github.com/user-attachments/assets/d0696707-443f-4396-8efc-476ba7f2b538" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0696707-443f-4396-8efc-476ba7f2b538" alt="Scatter plot showing two distinct clusters with colored data points and red X markers as centroids. Minimal overlap observed between clusters." width="800">
+</p>
 
-_Figure: Visualization of clustering results for k = 2. Data points are colored by cluster, with red X markers representing the centroids. The two clusters are clearly separated with minimal overlap._
+<p align="center"><em>Figure: Visualization of clustering results for k = 2. Data points are colored by cluster, with red X markers representing the centroids. The two clusters are clearly separated with minimal overlap.</em></p>
+
 
 Model performance showed strong, clean separation between the two clusters with minimal overlap. The cluster centroids revealed distinct profiles, reflecting meaningful differences in country development indicators. These results aligned well with expected patterns, supporting the validity of the clustering approach.
 
@@ -192,9 +204,11 @@ Model performance showed strong, clean separation between the two clusters with 
 
 ### Cluster Characteristics
 
-<img width="8000" height="4000" alt="Two radar charts comparing development indicators for two clusters. Cluster 0 shows high child mortality, low GDP per capita, and low life expectancy. Cluster 1 shows low child mortality, high income, and better overall health metrics." src="https://github.com/user-attachments/assets/dda889e9-236f-42d2-9cbd-abda6fd1400b" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dda889e9-236f-42d2-9cbd-abda6fd1400b" alt="Two radar charts comparing development indicators for two clusters. Cluster 0 shows high child mortality, low GDP per capita, and low life expectancy. Cluster 1 shows low child mortality, high income, and better overall health metrics." width="800">
+</p>
 
-_Figure: Radar charts showing feature profiles of Cluster 0 (left) and Cluster 1 (right), highlighting contrasts in development indicators._
+<p align="center"><em>Figure: Radar charts showing feature profiles of Cluster 0 (left) and Cluster 1 (right), highlighting contrasts in development indicators.</em></p>
 
 **Cluster 0 - Countries Requiring Urgent Aid:**
 - Child mortality: **74.16 per 1000** births (extremely high)
@@ -253,6 +267,3 @@ _Figure: Radar charts showing feature profiles of Cluster 0 (left) and Cluster 1
 **Author**: Az-Zukhrufu Fi Silmi Suwondo  
 **Email**: afsilmis@gmail.com  
 **GitHub**: [github.com/afsilmis/](https://github.com/afsilmis/)
-
----
-*This analysis provides a data-driven foundation for humanitarian aid allocation decisions. The methodology is designed to be transparent, replicable, and scalable for future applications.*
