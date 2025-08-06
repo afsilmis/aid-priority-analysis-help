@@ -212,17 +212,17 @@ Model performance showed strong, clean separation between the two clusters with 
 
 <p align="center"><em>Figure: Radar charts showing feature profiles of Cluster 0 (left) and Cluster 1 (right), highlighting contrasts in development indicators.</em></p>
 
-**Cluster 0 - Countries Requiring Urgent Aid:**
-- Child mortality: **74.16 per 1000** births (extremely high)
-- Life expectancy: **62.28 years** (below global average)
-- GDP per capita: **$2,019** (low income)
-- Fertility rate: **4.33 children** per woman (high)
-
-**Cluster 1 - Developed Countries:**
+**Cluster 0 - Developed Countries:**
 - Child mortality: **11.73 per 1000** births (very low)
 - Life expectancy: **76.68 years** (above global average)  
 - GDP per capita: **$21,059** (high income)
 - Fertility rate: **1.93 children** per woman (low)
+
+**Cluster 1 - Countries Requiring Urgent Aid:**
+- Child mortality: **74.16 per 1000** births (extremely high)
+- Life expectancy: **62.28 years** (below global average)
+- GDP per capita: **$2,019** (low income)
+- Fertility rate: **4.33 children** per woman (high)
 
 ---
 
